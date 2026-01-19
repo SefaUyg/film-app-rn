@@ -59,6 +59,15 @@ declare global {
         poster_url: string;
     }
 
+    interface TrendingCardProps {
+        movie: {
+            movie_id: number;
+            title: string;
+            poster_url: string;
+        }
+        index: number;
+    }
+
     interface Genre {
         id: number;
         name: string;
